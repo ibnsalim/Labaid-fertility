@@ -29,14 +29,15 @@ function Navbar() {
                             <a href='/' className=' font-bold text-gray-700 p-2 text-3xl'><img className='w-[180px]' src={img} alt='logo' /></a>
                         </div>
 
-                        <div className=''>
+                        <div>
                             <ul className='flex justify-center space-x-2'> 
                                 {
                                     Navmenu.map((item, i)=>(
-                                        <NavLink to={item.href} key={i} className='flex py-3  text-gray-900  hover:cursor-pointer '>
+                                        <NavLink to={item.href} key={i} className='flex py-3  text-gray-900 hover:cursor-pointer '>
                                             {({ isActive })=>(
                                                 <p className={
-                                                    isActive ? 'bg-gray-300/40 text-[15px] font-semibold tracking-wide hover:bg-gray-300/40 px-3 py-2 hover:rounded-sm' : 'text-[15px] font-semibold tracking-wide hover:bg-gray-300/40 px-3 py-2 hover:rounded-sm'
+                                                    isActive ? 'bg-gray-300/40 text-[15px] font-semibold tracking-wide hover:bg-gray-300/40 px-3 py-2 hover:rounded-sm' : 
+                                                    'text-[15px] font-semibold tracking-wide hover:bg-gray-300/40 px-3 py-2 hover:rounded-sm'
                                                 }>{item.nav}</p>
                                             )}
                                         </NavLink>

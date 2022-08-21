@@ -20,7 +20,7 @@ const Doctors = () => {
     <div className='flex flex-col justify-center items-center'>
       <div className='grid grid-cols-2 w-[600px] h-auto md:w-[700px] md:h-[450px] lg:w-[800px] lg:h-[500px] mx-auto bg-gray-200 shadow-xl'>
           <div className='bg-white ' onClick={() => {navigate(`/doctors/professor-dr.mariam-faruqui`, { replace: true })}}>
-            <img src='https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='doctor-1' className='h-[500px] w-full' />
+            <img src='https://hopeinfertilitycentrebd.com/wp-content/uploads/2019/12/Doctor-Mariam.jpg' alt='doctor-1' className='h-[500px] w-full' />
           </div>
           
           <div className='bg-gray-800 h-[500px]'>

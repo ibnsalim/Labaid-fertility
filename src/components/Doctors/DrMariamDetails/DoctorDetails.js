@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import {useParams} from 'react-router-dom'
+import Doctors from '../../Home/Doctors'
 import Sidebar from './Sidebar'
 
 const navData = [
@@ -25,11 +26,14 @@ const DoctorDetails = () => {
         {/* Side bar Start */}
         <div className='col-span-1 '>
           <Sidebar navData={navData}/>
-          
         </div>
         {/* Side bar End */}
         
-        <div className='col-span-4 '><p className="text-4xl font-semibold text-center">{name}</p></div>
+        <div className='col-span-4 '>
+          <div>
+            <Doctors />
+          </div>
+        </div>
       </div>
     </motion.div>
   )
