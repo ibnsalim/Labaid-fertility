@@ -18,11 +18,11 @@ const Treatments = () => {
         <p className='text-3xl text-gray-900 font-bold'>OUR TREATMENTS</p>
       </div >
 
-      <div class="relative rounded-b-sm w-auto h-auto pb-1 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
+      <div class="relative rounded-b-sm w-auto h-auto pb-1 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-y-5 gap-x-3">
                 {
                     FullArray.map((item, i) =>(
                     <div key={i} className='shadow-lg hover:drop-shadow-md ring-1 ring-gray-200 bg-gray-50 hover:cursor-pointer'>
-                        <div class="relative overflow-hidden bg-no-repeat bg-cover shadow-lg "
+                        <div class="relative overflow-hidden bg-no-repeat bg-cover "
                             data-mdb-ripple="true" data-mdb-ripple-color="light">
                             <img src={item.src} alt='' class="w-full h-40" />
                             <a href="/">
@@ -33,7 +33,7 @@ const Treatments = () => {
                         </div>
 
                         <div class="pl-2 pt-3">
-                            <h5 class="font-bold text-lg my-1 font-[roboto] hover:cursor-pointer text-gray-900 hover:text-red-500">{item.title}</h5>
+                            <h5 class="font-bold text-lg my-1 font-[roboto] hover:cursor-pointer text-gray-900 hover:underline">{item.title}</h5>
                         </div>
                     </div>
                     ))

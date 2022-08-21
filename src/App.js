@@ -1,5 +1,6 @@
 import React from "react";
 import './index.css';
+import { motion } from "framer-motion";
 import {Routes, Route} from 'react-router-dom';
 
 import Home from "./Pages/Home";
@@ -9,11 +10,17 @@ import Doctors from "./components/Doctors/Doctors";
 import Treatments from "./components/Treatments/Treatments";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Home/footer/footer";
-import DoctorDetails from "./components/Doctors/DoctorDetails";
+import DoctorDetails from "./components/Doctors/DrMariamDetails/DoctorDetails";
+import AssDoctorDetails from "./components/Doctors/AssDoctorDetails"
 
 function App() {
   return (
-    <div>
+    <motion.div 
+    className='mt-6'
+    initial={{ opacity:0 }}
+    animate={{ opacity:1 }}
+    exit={{ opacity:0, transition: {duration: 0.1} }}
+    >
       <Navbar />
       <div className="container">
         <Routes>
@@ -21,13 +28,14 @@ function App() {
           <Route exact path='/about' element={<About />} />
           <Route exact path='/doctors' element={<Doctors />} />
           <Route exact path='/doctors/:name' element={<DoctorDetails />} />
+          <Route exact path='/assistant-doctors/:name' element={<AssDoctorDetails />} />
           <Route exact path='/treatments' element={<Treatments />} />
           <Route exact path='/contact' element={<Contact />} />
         </Routes>
       </div>
       <Footer />
       
-    </div>
+    </motion.div>
   );
 }
 

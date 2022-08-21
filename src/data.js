@@ -98,8 +98,36 @@ export const data = [
 ]
 
 export const doctor_info =[
-    {name: "Dr. Kamrunnahar", specialist:"Gaynae", src: "https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"},
-    {name: "Dr. Sabina Yeasmin", specialist:"Gaynae", src: "https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"},
-    {name: "Dr. Runa laila", specialist:"Gaynae", src: "https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"},
-    {name: "Dr. Farida Parvin", specialist:"Gaynae", src: "https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"},
+    {
+        id: 1,
+        name: "Dr. Kamrunnahar",
+        specialist:"Obstetrics ",
+        degree: "MBBS, FCPS(Gynaecology)",
+        experience: "12 Years +",
+        src: "https://cdn.pixabay.com/photo/2017/03/14/03/20/woman-2141808_960_720.jpg"
+    },
+    {
+        id: 2,
+        name: "Dr. Sabina Yeasmin", 
+        specialist:"OBs", 
+        degree: "MBBS, FCPS(Gynaecology)",
+        experience: "12 Years +",
+        src: "https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        id: 3,
+        name: "Dr. Runa laila", 
+        specialist:"Gynaecology",
+        degree: "MBBS, FCPS(Gynaecology)", 
+        experience: "12 Years +",
+        src: "https://cdn.pixabay.com/photo/2017/03/22/19/07/child-2166079_960_720.jpg"
+    },
+    {
+        id: 4,
+        name: "Dr. Farida Parvin", 
+        specialist:"Gaynae", 
+        experience: "12 Years +",
+        degree: "MBBS, FCPS(Gynaecology)",
+        src: "https://cdn.pixabay.com/photo/2017/01/31/22/32/doctor-2027768_960_720.png"
+    },
 ]
