@@ -1,10 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
+import img1 from '../Images/lab-1.JPG'
+import img2 from '../Images/lab-2.JPG'
+import img3 from '../Images/doctor_group.JPG'
 
 const images = [
-    "https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    img1,
+    img2,
+    img3,
+    // "https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    // "https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 ]
 
 let count = 0;
@@ -50,9 +55,9 @@ const ImageSlider = () => {
     const slideRef = useRef();
     
   return (
-    <div className="max-w-screen-xl m-auto">
+    <div className="max-w-screen-xl">
         <div ref={slideRef} className='select-none relative'>
-            <div className='aspect-w-16 aspect-h-9'>
+            <div className='aspect-w-16 aspect-h-9 h-[500px]'>
                 <img src={images[currentIndex]} alt='OurImages' className='w-full h-[500px] ' />
             </div>
 

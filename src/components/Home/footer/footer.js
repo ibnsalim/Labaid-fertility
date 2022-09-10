@@ -47,9 +47,9 @@ function Footer() {
                   <div>
                     <div className='border-l-2 border-l-gray-500 text-xl font-semibold pl-2 text-gray-700'>Contact With Us</div>
                       <div className='flex flex-col'>
-                        <span className='text-gray-700 text-md font-normal'>House-815, Mirpur-2, Dhaka-1216</span>
-                        <span className='text-gray-700 text-md font-normal'>M : +880 1531-551609</span>
-                        <span className='text-gray-700 text-md font-normal'>E : info@medbit.com.bd</span>
+                        <span className='text-gray-700 text-md font-normal'>Labaid fertility center, Dhanmondi, Dhaka-1212</span>
+                        <span className='text-gray-700 text-md font-normal'>M : +880 1744-440882</span>
+                        <span className='text-gray-700 text-md font-normal'>E : labaidfertility@gmail.com</span>
                       </div>
                   </div>
                 </div>

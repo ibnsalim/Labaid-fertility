@@ -16,13 +16,12 @@ import AssDoctorDetails from "./components/Doctors/AssDoctorDetails"
 function App() {
   return (
     <motion.div 
-    className='mt-6'
     initial={{ opacity:0 }}
     animate={{ opacity:1 }}
     exit={{ opacity:0, transition: {duration: 0.1} }}
     >
       <Navbar />
-      <div className="container">
+      <div className="container ">
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/about' element={<About />} />

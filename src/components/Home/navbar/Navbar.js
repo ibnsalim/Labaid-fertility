@@ -20,10 +20,10 @@ function Navbar() {
   return (
     <div className='sticky top-0 z-50'>
         <nav className='bg-white mb-3  '>
-            <div className='max-w-full h-auto mx-auto shadow'>
+            <div className='max-w-full h-auto mx-auto shadow-md'>
                 <div className='2xl:max-w-7xl xl:max-w-6xl md:max-w-5xl mx-auto flex justify-between '>
 
-                    <div className='w-full flex justify-between items-center'>
+                    <div className='container w-full flex justify-between items-center'>
 
                         <div className='flex items-center'>
                             <a href='/' className=' font-bold text-gray-700 p-2 text-3xl'><img className='w-[180px]' src={img} alt='logo' /></a>

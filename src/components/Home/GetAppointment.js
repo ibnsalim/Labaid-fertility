@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const GetAppointment = () => {
   return (
     <motion.div className='mt-14 space-y-12 mb-12'>
-        <p className='text-4xl font-semibold text-gray-700 text-center mb-4'>For Appointment</p>
+        <p className='text-3xl text-[#369e9e] font-semibold text-center'>For Appointment</p>
         <div className='grid grid-cols-3 gap-x-10 mb-6 '>
             
             {/* Item-1 */}

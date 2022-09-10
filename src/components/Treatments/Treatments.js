@@ -15,7 +15,7 @@ const Treatments = () => {
     animate={{ opacity:1 }}
     exit={{ opacity:0, transition: {duration: 0.1} }}>
       <div className='mt-10 mb-6 text-center'>
-        <p className='text-3xl text-gray-900 font-bold'>OUR TREATMENTS</p>
+        <p className='text-3xl text-[#369e9e] font-semibold'>What We Do</p>
       </div >
 
       <div class="relative rounded-b-sm w-auto h-auto pb-1 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-y-5 gap-x-3">

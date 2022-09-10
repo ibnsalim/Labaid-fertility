@@ -6,9 +6,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 
 
 const Doctors = () => {
-
-
-
+  
   const navigate = useNavigate();
   return(
     <motion.div 
