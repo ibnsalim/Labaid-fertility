@@ -2,5 +2,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/bbqtcbiq/labaidfertility.com/
+    - export DEPLOYPATH=/home/bbqtcbiq/repositories/Labaid-fertility/
     - /bin/cp * $DEPLOYPATH
