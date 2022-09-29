@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.105acec7.css",
+    "main.js": "/static/js/main.e12908e6.js",
+    "static/media/lab-2.JPG": "/static/media/lab-2.15dc7e49d019eae8e65e.JPG",
+    "static/media/lab-1.JPG": "/static/media/lab-1.5e5aac37dab4e99ce9b2.JPG",
+    "static/media/doctor_group.JPG": "/static/media/doctor_group.e9a8125aea02fb8ba557.JPG",
+    "static/media/logo.png": "/static/media/logo.fdf658c5e2ae42dc111e.png",
+    "index.html": "/index.html",
+    "main.105acec7.css.map": "/static/css/main.105acec7.css.map",
+    "main.e12908e6.js.map": "/static/js/main.e12908e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.105acec7.css",
+    "static/js/main.e12908e6.js"
+  ]
+}
